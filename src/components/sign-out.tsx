@@ -12,7 +12,7 @@ const SignOut = () => {
         await authClient.signOut({
           fetchOptions: {
             onSuccess: () => {
-              router.push("/login"); // redirect to login page
+              router.push("/"); // redirect to login page
             },
           },
         });
